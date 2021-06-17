@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Assignment 14</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>JS Assignment 14</h1>
+        <h2>Task 1: Show/Hide Modal</h2>
+        <div class="sceneries-div" id="sceneries-div">
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+            <img onclick="openModal(this)" src="" />
+        </div>
+        <div class="modal-div">
+            <!-- Modal work -->
+            <div id="modal" class="modal">
+                <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+                <img class="modal-content" id="modal-img" />
+            </div>
+        </div>
+        <h2>Task 2: Shrink/Enlarge Paragraph</h2>
+        <div class="para-div">
+            <div clasa="size-change-buttons-div">
+                <button onclick="enlarge()">Zoom In (+)</button>
+                <button onclick="shrink()">Zoom Out (-)</button>
+            </div>
+            <p id="para">
+                1. Salar de Uyuni, Bolivia<br />
+                The world's largest salt flat, it creates a mirror effect after the rain.<br />
+                <br />
+
+                2. Cinque Terre, Rio Maggiore, Italy<br />
+                The &ldquo;5 Lands&rdquo; of colored homes perched on a cliff by the sea.<br />
+                <br />
+
+                3. Blue Lagoon, Iceland<br />
+                Natural thermal hot springs.<br />
+                <br />
+
+                4. Maldives<br />
+                This archipelago is the ultimate tropical island paradise.<br />
+                <br />
+
+                5. Glass Beach, California, USA<br />
+                A beach buried in colorful sea glass.<br />
+                <br />
+
+                6. Santorini, Greece<br />
+                Iconic blue and white buildings on a cliff by the sea.<br />
+                <br />
+
+                7. Neuschwanstein Castle, Germany<br />
+                The gorgeous former castle of the king.<br />
+                <br />
+
+                8. Aogashima Volcano, Japan<br />
+                A small village living in a volcanic island.<br />
+                <br />
+
+                9. Venice, Italy<br />
+                The city of colorful winding corridors and canals, and good food.<br />
+                <br />
+
+                10. Havasu Falls, Grand Canyon, Arizona, USA<br />
+                In Grand Canyon National Park is this majestic waterfall.<br />
+                <br />
+
+                11. Swiss Alps, Switzerland<br />
+                The epic and majestic mountain range.<br />
+                <br />
+
+                12. Iceland<br />
+                A vast winter and a perfect place to watch the aurora.<br />
+                <br />
+
+                13. Positano, Almalfi Coast, Italy<br />
+                Storybook town on a cliff by the sea.<br />
+                <br />
+
+                14. Rio de Janeiro, Brazil<br />
+                The iconic statue overlooking the city.<br />
+                <br />
+
+                15. Aansu lake, Pakistan<br />
+                The name &ldquo;Ansoo&rdquo; comes from its tear-like shape (the Urdu word Ansoo means teardrop). The lake also resembles a human eye with a central ice island resembling the iris and a ridge resembling an eyebrow, which
+                becomes even more prominent when ice melts on the &ldquo;eyebrow&rdquo; during the summer.
+            </p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
